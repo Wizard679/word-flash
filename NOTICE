@@ -1,0 +1,43 @@
+WordFlash 词刷 · 第三方资源声明
+=================================
+
+本仓库中的项目源代码采用 MIT 许可证（见 LICENSE）。
+词库、例句、音标等数据资源的版权归各自原始项目与贡献者所有，
+分发与再使用时必须遵守下列许可与署名要求。
+
+1) 词条与中文释义：ECDICT
+   项目地址：https://github.com/skywind3000/ECDICT
+   许可证：MIT License
+   Copyright (c) ECDICT authors
+   说明：本仓库内置的词条与中文释义取自 ECDICT，未做商业性再分发；
+   按 MIT 要求保留本声明，MIT 许可证全文见
+   https://github.com/skywind3000/ECDICT/blob/master/LICENSE
+
+2) 音标：CMU Pronouncing Dictionary
+   项目地址：http://www.speech.cs.cmu.edu/cgi-bin/cmudict
+   许可证：BSD 风格（Carnegie Mellon University）
+   说明：原始 ARPAbet 音素经规则转写为美式 IPA 后用于界面展示，未内置原始音频。
+   Copyright (c) 1998-2014 Carnegie Mellon University.
+
+3) 例句与中文翻译：Tatoeba
+   项目地址：https://tatoeba.org
+   许可证：Creative Commons Attribution 2.0 France (CC BY 2.0 FR)
+   许可证全文：https://creativecommons.org/licenses/by/2.0/fr/legalcode
+   说明：例句由 Tatoeba 社区贡献者创作，按 CC BY 2.0 使用并在此署名；
+   仅选取英中平行句对，中文统一转为简体，不含商业词典例句。
+
+4) 专升本词表
+   公开考试大纲词表（仅使用单词本身），释义与音标重新取自上述开放语料。
+
+5) 发音
+   调用 Android 系统离线 TTS，本仓库不包含任何第三方录音文件。
+
+6) 第三方开源库
+   AndroidX / Jetpack Compose / Kotlin Coroutines / Robolectric / JUnit 等，
+   各自适用 Apache License 2.0、MIT 或 BSD 许可，版权归各自项目所有。
+
+再分发要求
+----------
+- 保留本文件与 app/src/main/assets/ATTRIBUTION.md；
+- 不得移除 ECDICT / CMUdict / Tatoeba 的署名与许可链接；
+- 不得将上述数据资源宣称为自有版权内容。

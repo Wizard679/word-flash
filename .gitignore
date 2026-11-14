@@ -1,0 +1,30 @@
+# Gradle / 构建产物
+.gradle/
+build/
+app/build/
+captures/
+*.hprof
+
+# 本地配置与密钥（严禁提交）
+local.properties
+keystore/
+*.jks
+*.keystore
+gradle.properties.bak
+cishua.storePass
+cishua.keyPass
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# 发布产物
+*.apk
+*.aab
+*.keystore
+
+# 日志与临时文件
+*.log
+/tmp/
